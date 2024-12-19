@@ -13,6 +13,7 @@ public class CrabWorld extends World
 
         prepare();
     }
+    
     /**
      * Prepare the world for the start of the program.
      * That is: create the initial objects and add them to the world.
@@ -61,5 +62,7 @@ public class CrabWorld extends World
         addObject(lobster3,40,23);
         Crab crab = new Crab();
         addObject(crab,325,322);
+        Crab crab2 = new Crab();
+        addObject(crab2,116,331);
     }
 }
